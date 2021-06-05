@@ -32,8 +32,8 @@ fetch(url)
 .then(response => response.json())
 .then(data => {
 
-let nombre = document.getElementById("nombre");
-nombre.innerHTML=`${data.nombre}`;
+let nombrep = document.getElementById("nombrep");
+nombrep.innerHTML=`${data.name}`;
 
 let frente = document.getElementById("frente");
 let trasero = document.getElementById("trasero");
